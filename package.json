@@ -9,13 +9,14 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest",
-    "check-db": "tsx src/lib/check-db.ts"
+    "check-db": "tsx src/lib/check-db.ts",
+    "setup-db": "tsx src/lib/setup-db.ts"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "framer-motion": "^11.0.8",
     "lucide-react": "^0.344.0",
-    "mysql2": "^3.9.2",
+    "mysql2": "^3.14.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.2",
